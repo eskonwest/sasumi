@@ -1,20 +1,16 @@
 ## Sasumi
 
-this tool is a backend for bash scripts.
+this tool is a backend for bash scripts. (linux only, windows is a wip)
 
-**for use**
-you can wget a script into a folder, make it executable, then run it...
+**for standalone use**<br>
 ```
-mkdir sasumi-scripts
-cd sasumi-scripts
-wget https://vokalybyte.github.io/sasumi/platform/script.sh
-bash script.sh
+mkdir nanome
+cd nanome
+wget https://github.com/vokalybyte/sasumi/raw/main/nanome/core.sh
+bash core.sh
 ```
+<br>
 
-NOTE: Replace `script` and `platform` with your platforms.
-
-Platform list:
-- `win` Windows
-- `darwin` MacOS
-
-E.x. `https://vokalybyte.github.io/sasumi/darwin/helloworld.sh`
+**for in-script use**<br>
+download nanome here: https://github.com/vokalybyte/sasumi/raw/main/nanome/core.sh
+modify the file and uncomment features you want. dont uncommend sasumibar-v3. then ship it inside your script.
