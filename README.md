@@ -13,4 +13,4 @@ bash core.sh
 
 **for in-script use**<br>
 download nanome here: https://vokalybyte.github.io/sasumi/nanome/core.sh
-modify the file and uncomment features you want. dont uncommend sasumibar-v3. then ship it inside your script.
+modify the file and uncomment features you want. dont uncomment sasumibar-v3. then ship it inside your script.
